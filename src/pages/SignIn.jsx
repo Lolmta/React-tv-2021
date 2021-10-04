@@ -43,12 +43,11 @@ const SignIn = () => {
         <div className='signin'>
             <div>
                 <form className='signin__form'>
-                    <h1>Sign In</h1>
-                    <input ref={emailRef} type="email" />
-                    <input ref={passwordRef} type="password" />
+                    <input ref={emailRef} type="email" placeholder='email' />
+                    <input ref={passwordRef} type="password" placeholder = 'password'/>
                     <button  className='btn' onClick={signIn} >Sign In</button>
-                    <h6>If you are not registered yet, just enter your name, password and click Sign Up</h6>
                     <button className='btn' onClick={signUp}>Sign Up</button>
+                    <h4>If you are not registered yet, just enter your name, password and click Sign Up</h4>
                 </form>
             </div>
         </div>
