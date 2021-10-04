@@ -32,7 +32,7 @@ const Searchbar = () => {
                 <button
                  className='btn btn-block'
                  onClick={clearSearchHandler}>
-                     ClEAR
+                     CLEAR
                 </button>
                 </div>
                 
