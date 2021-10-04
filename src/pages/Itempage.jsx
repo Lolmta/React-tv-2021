@@ -33,7 +33,7 @@ const Itempage = ({match}) => {
     return (
         <div className='container '>
         <Navbar/>
-        { loading ? <h2>Loading...</h2> : 
+        
         <div className = 'item '>
             <img src = {singleShow.image ? singleShow.image.medium : 
             'http://artismedia.by/blog/wp-content/uploads/2018/05/in-blog2-1.png' } 
@@ -57,7 +57,7 @@ const Itempage = ({match}) => {
                 className='btn'
                 onClick = {addFavorite}>Add to favorite <i class="fas fa-heart"></i></button>
             </div>
-        </div> }
+        </div> 
         </div>
     )
 }
