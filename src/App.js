@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage";
 import Library from "./pages/Library";
 import Itempage from "./pages/Itempage";
 import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
       <div > 
       <Switch>
         <Route exact path='/' component={user? Homepage : SignIn}/>
+        <Route exact path='/signup' component={SignUp}/>
         <Route exact path='/library' component ={Library}/>
         <Route exact path='/item/:id' component ={Itempage}/>
       </Switch>

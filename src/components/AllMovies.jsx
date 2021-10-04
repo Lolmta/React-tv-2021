@@ -53,7 +53,10 @@ const AllMovies = () => {
 
  
 
-    const setChengeRadio =  (e) => {setGenre((e.target.value))}
+    const setChengeRadio =  (e) => {
+      setGenre((e.target.value))
+      setPage(1)
+    }
 
     return (
       <div className='mowies'>

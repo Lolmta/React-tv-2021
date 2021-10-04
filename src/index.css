@@ -55,6 +55,7 @@ img {
   padding: 40px 300px;
   background-color: rgba(105, 105, 105, 0.5);
   border-radius: 15px;
+  width: 100%;
 }
 
 .signin__form > input {
@@ -66,6 +67,7 @@ img {
   color: var(--dark-color);
   font-size: 20px;
   outline-width: 0ch;
+  border-radius: 15px;
  
 }
 
@@ -173,8 +175,6 @@ img {
   text-align: center;
 
 }
-
-
 
 .info__name{
   height: 60px;
@@ -336,4 +336,9 @@ align-items: center;
 .btn-group{
   display: flex;
   justify-content: space-between;
+}
+
+.sign__link{
+  text-decoration: none;
+  color: white;
 }
