@@ -39,7 +39,7 @@ const App = () => {
       <div > 
       <Switch>
         <Route exact path='/' component={user? Homepage : SignIn}/>
-        <Route exact path='/signup' component={SignUp}/>
+        <Route exact path='/signup' component={user? Homepage : SignUp}/>
         <Route exact path='/library' component ={Library}/>
         <Route exact path='/item/:id' component ={Itempage}/>
       </Switch>
