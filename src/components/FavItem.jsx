@@ -8,7 +8,7 @@ const FavItem = ({id}) => {
     const [favorite , setFavorite ] = useState('');
 
     useEffect(() => {
-        axios.get(`http://api.tvmaze.com/shows/${id}`)
+        axios.get(`https://api.tvmaze.com/shows/${id}`)
         .then((doc) =>{
             console.log('doc.data', doc.data)
             return setFavorite(doc.data)
