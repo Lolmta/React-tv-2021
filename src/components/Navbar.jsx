@@ -23,7 +23,7 @@ const Navbar = () => {
                             <Link to ='/library'>FAVORITES <i class="fas fa-heart"></i></Link>
                         </li>
                         <li>
-                            <button className='btn_logout' onClick = { () => auth.signOut() }><Link to='/'></Link><i class="fas fa-sign-out-alt"></i></button>
+                        <Link to='/'><button className='btn_logout' onClick = { () => auth.signOut() }><i class="fas fa-sign-out-alt"></i></button></Link>
                         </li>
                     </ui>
                 </nav>
